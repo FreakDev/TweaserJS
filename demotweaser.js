@@ -6,8 +6,11 @@ window.onload = function () {
     
     document.getElementsByTagName('body')[0].onclick = function () {
         divTweaser.style('left', 500);
-    }
-    
-    setInterval( function () { divTweaser.update() }, 50);
-    
+        
+        // var interval = setInterval( function () {            
+        //     if(!divTweaser.update()) {
+        //         clearInterval(interval);
+        //     };
+        // }, 50);
+    }    
 }
